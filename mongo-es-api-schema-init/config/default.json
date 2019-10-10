@@ -1,0 +1,19 @@
+{
+  "elasticsearch":{
+    "host": "localhost",
+    "port": 9200,
+    "user":"elastic",
+    "password":"elastic",
+    "mode": "strict",
+    "ignoreAggrMetaFields": false
+  },
+  "redis": {
+    "host": "localhost",
+    "port": 6379,
+    "auth_pass": "admin",
+    "no_ready_check": true
+  },
+  "mongo": {
+    "url": "mongodb://localhost:27017,localhost:27018,localhost:27019/test?replicaSet=rs0"
+  }
+}
