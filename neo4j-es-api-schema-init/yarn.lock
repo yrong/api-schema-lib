@@ -31,13 +31,13 @@ ansi-styles@^2.2.1:
   version "2.2.1"
   resolved "http://registry.npm.taobao.org/ansi-styles/download/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
 
-api-schema-core@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/api-schema-core/-/api-schema-core-1.0.0.tgz#5987c06378ed7a1d5301b7863fe411d1ff25bbb7"
-  integrity sha512-IlAXgaVGH8FcSQzZ6x7K8hvWak/s/qHMsMNmbNzG7cm/0P/OhIWw76VuOPLYhjbM8LdQG4j8IEU8gEctWsA1Xw==
+api-schema-core@1.0.0-beta.1:
+  version "1.0.0-beta.1"
+  resolved "https://registry.npmjs.org/api-schema-core/-/api-schema-core-1.0.0-beta.1.tgz#f8b9edadc14d93764413978626188bdb0ac4e984"
+  integrity sha512-PcnF7ul2V5uh+mknYoX1laDff+zhgt5/CE/NCA+oUEL86cepRKnapbXDMB2jiy4iGAbUHHv9n5ZQcpYrs7hD5Q==
   dependencies:
     ajv "^6.10.0"
-    lodash "^4.17.11"
+    lodash "^4.17.13"
     redis "^2.8.0"
     redis-crud-fork "^1.0.2"
 
@@ -264,9 +264,10 @@ lodash@^4.17.10:
   version "4.17.10"
   resolved "http://registry.npm.taobao.org/lodash/download/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
-lodash@^4.17.11:
-  version "4.17.11"
-  resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
+lodash@^4.17.13:
+  version "4.17.15"
+  resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 minimatch@^3.0.2:
   version "3.0.4"

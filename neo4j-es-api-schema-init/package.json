@@ -1,6 +1,6 @@
 {
   "name": "neo4j-elasticsearch-api-schema-init",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.1",
   "bin": {
     "initSchema": "init.js"
   },
@@ -13,10 +13,10 @@
   "dependencies": {
     "config": "^3.1.0",
     "elasticsearch": "^16.1.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "neo4j-driver": "^1.7.5",
     "parse-neo4j": "^0.6.11",
-    "api-schema-core": "1.0.0"
+    "api-schema-core": "1.0.0-beta.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",

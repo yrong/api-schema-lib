@@ -25,45 +25,45 @@ ansi-styles@^2.2.1:
   version "2.2.1"
   resolved "https://registry.npmjs.org/ansi-styles/-/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
 
-api-schema-cache@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/api-schema-cache/-/api-schema-cache-1.0.0.tgz#c9e9559294c308583c3e9d9d4f327034b01bb466"
-  integrity sha512-y+V0Xaber4IoNUn5KCxvdK04cWMzmhzUJROqweBsOz88OWdKKKd4+GdxCLxLIb9mp5N9+Yf1vSR+DlFuj839vQ==
+api-schema-cache@1.0.0-beta.1:
+  version "1.0.0-beta.1"
+  resolved "https://registry.npmjs.org/api-schema-cache/-/api-schema-cache-1.0.0-beta.1.tgz#eb83a218122162f978d501f458559bc2d98bc696"
+  integrity sha512-iKMFIEFC/b1BxyJnItPOZx8zPlIeiflDv8IaYlEt/HIZDyNnFM5r4oQk/GF109LMDWoiG6yEbG9oEKKhB2kCmw==
   dependencies:
-    api-schema-common "1.0.0"
-    api-schema-core "1.0.0"
+    api-schema-common "1.0.0-beta.1"
+    api-schema-core "1.0.0-beta.1"
     config "^3.1.0"
-    lodash "^4.17.11"
+    lodash "^4.17.13"
     node-cache-redis "^2.9.0"
 
-api-schema-common@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/api-schema-common/-/api-schema-common-1.0.0.tgz#47099168926a40c630ed91e9d2e899d61bf44c1e"
-  integrity sha512-XVJOyBStLss4yz0PlQM3KmNsJB0wUdKr/XRvUNY8/cBZyVyW+3cogxFf4Ki2a7rGoCL/VsbtYKYNWc+VtRiX+w==
+api-schema-common@1.0.0-beta.1:
+  version "1.0.0-beta.1"
+  resolved "https://registry.npmjs.org/api-schema-common/-/api-schema-common-1.0.0-beta.1.tgz#65389427ab246b8d77ca051de6205f2ce9876d21"
+  integrity sha512-UkIgzkwNv2XDKGNHV4C4jojwD2IEGUyP7IPRDA11MiwKloLNvrL8wQQSaxSSS3gWQm4SJMIgBXvJENRxX9OFww==
   dependencies:
     axios "^0.19.0"
     config "^3.1.0"
-    lodash "^4.17.11"
+    lodash "^4.17.13"
 
-api-schema-core@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/api-schema-core/-/api-schema-core-1.0.0.tgz#5987c06378ed7a1d5301b7863fe411d1ff25bbb7"
-  integrity sha512-IlAXgaVGH8FcSQzZ6x7K8hvWak/s/qHMsMNmbNzG7cm/0P/OhIWw76VuOPLYhjbM8LdQG4j8IEU8gEctWsA1Xw==
+api-schema-core@1.0.0-beta.1:
+  version "1.0.0-beta.1"
+  resolved "https://registry.npmjs.org/api-schema-core/-/api-schema-core-1.0.0-beta.1.tgz#f8b9edadc14d93764413978626188bdb0ac4e984"
+  integrity sha512-PcnF7ul2V5uh+mknYoX1laDff+zhgt5/CE/NCA+oUEL86cepRKnapbXDMB2jiy4iGAbUHHv9n5ZQcpYrs7hD5Q==
   dependencies:
     ajv "^6.10.0"
-    lodash "^4.17.11"
+    lodash "^4.17.13"
     redis "^2.8.0"
     redis-crud-fork "^1.0.2"
 
-api-schema-response-mapper@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/api-schema-response-mapper/-/api-schema-response-mapper-1.0.0.tgz#6d3c76f5ab015a7f0b45b293103ffa4cd90b81c0"
-  integrity sha512-7aietbNdlqKlZXCpK80gRGVUIVKwtlP2ebupy8uMz0fzu1UIYw56+ORDDgwwTHc3Gnqchb0PfViUBEBj2Hr6Tg==
+api-schema-response-mapper@1.0.0-beta.1:
+  version "1.0.0-beta.1"
+  resolved "https://registry.npmjs.org/api-schema-response-mapper/-/api-schema-response-mapper-1.0.0-beta.1.tgz#98ce3c6a05d314919696b425751eaa7146279427"
+  integrity sha512-k0Bsvax1i62Le28HQd/aKLtRsfgt/XkcIeOC242J8C0Rr+JQXpMckBh+ex5+nXMPsrPIYgIbJZCXjUsbZh+u9Q==
   dependencies:
-    api-schema-cache "1.0.0"
-    api-schema-common "1.0.0"
-    api-schema-core "1.0.0"
-    lodash "^4.17.11"
+    api-schema-cache "1.0.0-beta.1"
+    api-schema-common "1.0.0-beta.1"
+    api-schema-core "1.0.0-beta.1"
+    lodash "^4.17.13"
 
 assertion-error@^1.1.0:
   version "1.1.0"
@@ -339,9 +339,14 @@ lodash.pick@^4.4.0:
   version "4.4.0"
   resolved "https://registry.npmjs.org/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
 
-lodash@^4.17.10, lodash@^4.17.11:
+lodash@^4.17.10:
   version "4.17.11"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
+
+lodash@^4.17.13:
+  version "4.17.15"
+  resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 minimatch@^3.0.2:
   version "3.0.4"

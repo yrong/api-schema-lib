@@ -1,6 +1,6 @@
 {
   "name": "api-schema-search",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.1",
   "main": "index.js",
   "author": "Ronyang <yrong1997@gmail.com>",
   "license": "MIT",
@@ -9,12 +9,12 @@
   },
   "dependencies": {
     "config": "^3.1.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "elasticsearch": "^16.1.1",
-    "api-schema-common": "1.0.0",
-    "api-schema-core": "1.0.0",
-    "api-schema-cache":"1.0.0",
-    "api-schema-response-mapper":"1.0.0"
+    "api-schema-common": "1.0.0-beta.1",
+    "api-schema-core": "1.0.0-beta.1",
+    "api-schema-cache":"1.0.0-beta.1",
+    "api-schema-response-mapper":"1.0.0-beta.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",
