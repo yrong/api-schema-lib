@@ -13,7 +13,7 @@
   "dependencies": {
     "config": "^3.1.0",
     "elasticsearch": "^16.1.1",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "mongodb": "^3.3.2",
     "muri": "^1.3.0",
     "api-schema-core": "1.0.0-beta.1"
