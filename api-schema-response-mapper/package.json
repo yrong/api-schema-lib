@@ -8,7 +8,7 @@
     "test":"mocha"
   },
   "dependencies": {
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.21",
     "api-schema-common": "1.0.0-beta.1",
     "api-schema-core":"1.0.0-beta.1",
     "api-schema-cache":"1.0.0-beta.1"
